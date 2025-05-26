@@ -1,0 +1,19 @@
+#1
+a = int(input("enetr a number : "))
+b = int(input("enter a number : "))
+Addition = a+b
+Subtraction = a - b
+Multiplication = a*b
+Division = a / b
+print("Addition : ",Addition)
+print("Subtraction : ", Subtraction)
+print("Multiplication : ",Multiplication)
+print("Division : ",Division)
+
+
+
+#2
+first = input("Enter First name : ")
+last = input("Enter last name : ")
+full = first + last
+print("Hello, ",full, "welcome to python pogram")
