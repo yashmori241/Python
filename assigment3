@@ -1,0 +1,25 @@
+#!
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n-1)
+    
+b = 5
+print("number is ",b,"factorial is ",factorial(b))    
+    
+
+
+
+
+
+#2
+import math
+num = float(input("Enter a number: "))
+sqrt_val = math.sqrt(num)
+log_val = math.log(num)
+sine_val = math.sin(num)  
+print("Calculated Results")
+print("Square root:", sqrt_val)
+print("Natural logarithm (ln):", log_val)
+print("Sine (in radians):", sine_val)
